@@ -1,0 +1,122 @@
+name: ecommerce_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+
+  #------------packages-------------
+dependencies:
+  flutter:
+    sdk: flutter
+
+   #icon
+  cupertino_icons: ^1.0.6
+  iconsax: ^0.0.8
+
+  #utility packages
+  http: ^1.2.2
+  intl: ^0.19.0
+  logger: ^2.4.0
+  url_launcher: ^6.3.1
+  flutter_native_splash: ^2.4.1
+  smooth_page_indicator: ^1.2.0+3
+  lottie: ^3.1.3
+  connectivity_plus: ^2.3.0
+  google_sign_in: ^6.2.2
+  shimmer: ^3.0.0
+  image_picker: ^1.1.2
+  cached_network_image: ^3.4.1
+
+  #state management
+  get: ^4.6.6
+  get_storage: ^2.1.1
+
+
+  #-product specific-#
+  readmore: ^2.2.0
+  carousel_slider: ^5.0.0
+  flutter_rating_bar: ^4.0.1
+
+
+  #firebase
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.3
+  cloud_firestore: ^5.5.0
+  firebase_storage: ^12.3.7
+
+#-----------package end ----------#
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+
+#--------local assets-------#
+  assets:
+    - assets/logos/
+    - assets/icons/
+    - assets/icons/brands/
+    - assets/icons/categories/
+    - assets/images/
+    - assets/images/main_carousel/
+    - assets/images/products/
+    - assets/images/profile/
+    - assets/gifs/
+    - assets/gifs/on_boarding_images/
+    - assets/json_animations/
+
+
+
+
+#---------local fonts---------#
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Black.ttf
+        - asset: assets/fonts/poppins/Poppins-BlackItalic.ttf
+        - asset: assets/fonts/poppins/Poppins-bold.ttf
+        - asset: assets/fonts/poppins/Poppins-BoldItalic.ttf
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+        - asset: assets/fonts/poppins/Poppins-MediumItalic.ttf
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/poppins/Poppins-Thin.ttf
+        - asset: assets/fonts/poppins/Poppins-ThinItalic.ttf
+        - asset: assets/fonts/poppins/Poppins-italic.ttf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
